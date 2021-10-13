@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/wonder-text/static/js/main.54613f34.chunk.js",
-    "main.js.map": "/wonder-text/static/js/main.54613f34.chunk.js.map",
+    "main.js": "/wonder-text/static/js/main.a269a085.chunk.js",
+    "main.js.map": "/wonder-text/static/js/main.a269a085.chunk.js.map",
     "runtime-main.js": "/wonder-text/static/js/runtime-main.f841a6f8.js",
     "runtime-main.js.map": "/wonder-text/static/js/runtime-main.f841a6f8.js.map",
-    "static/js/2.82f673af.chunk.js": "/wonder-text/static/js/2.82f673af.chunk.js",
-    "static/js/2.82f673af.chunk.js.map": "/wonder-text/static/js/2.82f673af.chunk.js.map",
+    "static/js/2.5a19e39e.chunk.js": "/wonder-text/static/js/2.5a19e39e.chunk.js",
+    "static/js/2.5a19e39e.chunk.js.map": "/wonder-text/static/js/2.5a19e39e.chunk.js.map",
     "index.html": "/wonder-text/index.html",
-    "static/js/2.82f673af.chunk.js.LICENSE.txt": "/wonder-text/static/js/2.82f673af.chunk.js.LICENSE.txt"
+    "static/js/2.5a19e39e.chunk.js.LICENSE.txt": "/wonder-text/static/js/2.5a19e39e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f841a6f8.js",
-    "static/js/2.82f673af.chunk.js",
-    "static/js/main.54613f34.chunk.js"
+    "static/js/2.5a19e39e.chunk.js",
+    "static/js/main.a269a085.chunk.js"
   ]
 }
