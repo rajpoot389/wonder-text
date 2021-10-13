@@ -35,10 +35,10 @@ const Text_Area = (props) => {
         navigator.clipboard.writeText(copyTxt.value);
         showAlert("Sucessfully Copied", "success");
     }
-  const clearText=()=>{
-      setText('');
-      showAlert("text Cl", "success");
-  }
+    const clearText = () => {
+        setText('');
+        showAlert("text Cleared", "success");
+    }
 
     const showAlert = (msg, type) => {
         setAlert({ msg, type });
@@ -56,9 +56,11 @@ const Text_Area = (props) => {
         <>
             <div className={`container-fluid bg-${props.mode === "dark" ? "dark" : "light"}`} style={{
                 display: "flex", flexDirection: "column",
-                alignItems: "center", height: "100vh", justifyContent: "center"
+                alignItems: "center", height: "100vh", justifyContent: "center",alignItems:"space-around"
             }} >
-                <Alert content={alert} />
+                <div className="mb-4" style={{ width: "100vw", height: "38px" }}>
+                    <Alert content={alert} />
+                </div>
 
                 <div className={`container  bg-${props.mode === "dark" ? "dark" : "light"}`}>
                     <div className="mb-3">

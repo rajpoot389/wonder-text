@@ -3,8 +3,13 @@ import React from 'react'
 const Alert = (props) => {
     const display = () => {
         if (props.content) {
-            return <div class={`alert alert-${props.content.type}`} role="alert">
-                {props.content.msg}
+            return <div>
+                <div class={`alert alert-${props.content.type}`} role="alert">
+                    {props.content.msg}
+                </div>
+                 {/* <div class={`alert alert-success`} role="alert">
+                sedrfffffffffff
+                </div> */}
             </div>
         }
     }
