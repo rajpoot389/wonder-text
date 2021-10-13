@@ -73,7 +73,7 @@ const Text_Area = (props) => {
                 </div>
                 <p className={`text-${props.mode === 'dark' ? 'light' : 'dark'}`}>{text.length} words and {text.split(" ").length} charecters</p>
 
-                <p>time To Read {text.length ? text.length * 0.43.toFixed(2) : ">>"}</p>
+                <p className={`text-${props.mode === 'dark' ? 'light' : 'dark'}`}>time To Read {text.length ? text.length * 0.04.toFixed(2) : ">>"}</p>
                 <div>
                     <h2 className={`text-${props.mode === 'dark' ? 'light' : 'dark'}`}>{text.length === 0 ? 'Preview' : text}</h2>
                 </div>
